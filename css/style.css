@@ -6,7 +6,7 @@
 .btn{
 	border-radius: 3rem;
 	border: 0;
-	font-size: 18px;
+	font-size: 1.125rem;
 	padding: 1.5rem;
 	padding-left: 2.2rem;
 	padding-right: 2.2rem;
@@ -14,7 +14,7 @@
 	font-weight: 700;	
 }
 .smallfont{
-	font-size: 18px;
+	font-size: 1.125rem;
 	font-weight: 500;
 }
 .body{
@@ -25,8 +25,8 @@
 	width: 100%;
 }
 .centered{
-	padding-left: 10%;
-	padding-right: 10%;
+	padding-left: 13%;
+	padding-right: 13%;
 }
 /* first section */
 .cover{
@@ -43,7 +43,7 @@
 .btnhead{
 	border-radius: 3rem;
 	border: 0;
-	font-size: 18px;
+	font-size: 1.125rem;
 	padding: 1.5rem;
 	padding-left: 2.2rem;
 	padding-right: 2.2rem;
@@ -61,7 +61,7 @@
 .page1_text h1{
 	color: #13183f;
 	font-weight: 800;
-	font-size: 56px;
+	font-size: 3.5rem;
 }
 .page1_text button{
 	background: linear-gradient(to top, #f02aa6,#ff6f48);
@@ -72,12 +72,9 @@
 /* second section */
 .courses_section{
 	background: linear-gradient(to top,#f0f1ff,#ffffff);
-}
-.courses-display{
-	padding-left: 10%;
-	padding-right: 10%;
+	padding-left: 13%;
+	padding-right: 13%;
 	padding-bottom: 7rem;
-
 }
 .box_1{
 	background: linear-gradient(to top, #f02aa6,#ff6f48);
@@ -90,11 +87,15 @@
 	color: #13183f;
 }
 .course_icon button{
+	font-size: 1.125rem;
+	border: 0;
+	font-weight: 700;	
 	color: #f74780;
 	background-color: white;
+	padding: 0;
 	position: absolute;
-	left: 0;
-	bottom: 0;
+	bottom: 2rem;
+	left: 1rem;
 }
 .course_icon button:hover{
 	color: rgba(247, 71, 128, 0.5) ;
@@ -111,8 +112,8 @@
 	margin: 0;
 }
 .foot footer{
-	margin-left: 10%;
-	margin-right: 10%;
+	margin-left: 13%;
+	margin-right: 13%;
 	min-height: 8rem;
 	position: relative;
 	
@@ -146,11 +147,11 @@
 	position: relative;
 	left: -3rem;
 }
-.courses-display div div{
+.courses-display div{
 	position: relative;
 	border-radius: 1rem;
 	padding: 1rem;
-	padding-bottom: 60px;
+	padding-bottom: 3.75rem;
 	margin-top: 3rem;
 	margin-bottom: 3rem;	
 }
@@ -161,38 +162,30 @@
 .page1_text{
 	width: 50%;
 }
+.cover{
+	margin-bottom: 10rem;
+}
 .picture picture{
 	display: block;
 	max-width: 100%;
 	position: absolute;
-	right: -22rem;
-	top: -3rem;
+	right: -19rem;
+	top: -5rem;
 	overflow-x: visible;
 }
 .courses-display {
-	display: flex;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	column-gap: 2rem;
+	row-gap: 4rem;
 
 }
-.courses-display div div{
+.courses-display div{
 	position: relative;
 	border-radius: 1rem;
 	padding: 1rem;
-	padding-bottom: 30px;
-	margin-top: 3rem;
-	margin-bottom: 3rem;
 
 }
-.line1{
-	width: 50%;
-	margin-left: 0;
-	margin-right: 0.5rem;
-}
-.line2{
-	width: 50%;
-	margin-right: 0;
-	margin-left: 0.5rem;
-}
-
 }
 /* desktop */
 @media only screen and (min-width: 900px){
@@ -203,28 +196,22 @@
 	right: -33rem;
 	top: -11rem;
 }
-.courses-display{
-	display: block;
-	margin-top: 13rem;
+.cover{ 
+	padding-bottom: 15rem;
 }
-.courses-display div div{
+.courses_section{
+}
+.courses-display{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	column-gap: 2rem;
+	row-gap: 4rem;
+}
+.courses-display div{
 	position: relative;
-	width: 33%;
-	margin: 1rem;
 	border-radius: 1rem;
 	padding: 1rem;
-	padding-bottom: 30px;
-
+	padding-bottom: 1.875rem;
 }
-.line1{
-	display: flex;
-	margin-bottom: 3.5rem;
-	width: 100%;
-}
-.line2{
-	display: flex;
-	width: 100%;
-}
-
 
 }
