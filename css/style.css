@@ -281,7 +281,8 @@
 	max-width: 100%;
 	margin-top: 2rem;
 	position: relative;
-	left: -3rem;
+	left: -13rem;
+	overflow-x: hidden;
 }
 .courses-display div{
 	position: relative;
